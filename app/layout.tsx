@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import { Header } from '@/components/header'
@@ -9,6 +9,13 @@ import { WhatsAppButton } from '@/components/whatsapp-button'
 const inter = Inter({ 
   subsets: ["latin"], 
   variable: "--font-inter",
+  display: "swap",
+});
+
+const poppins = Poppins({ 
+  subsets: ["latin"], 
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
   display: "swap",
 });
 
@@ -182,7 +189,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         <Header />
         <main>{children}</main>
         <Footer />
