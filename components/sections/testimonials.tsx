@@ -30,7 +30,7 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section className="bg-white py-16 lg:py-24">
+    <section className="bg-[#F5F5F5] py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <ScrollAnimation>
           <div className="text-center">
@@ -54,7 +54,7 @@ export function TestimonialsSection() {
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           {testimonials.map((testimonial, index) => (
             <ScrollAnimation key={index} delay={index * 100}>
-              <div className="flex flex-col h-full rounded-2xl bg-[#F5F5F5] p-6 transition-all hover:shadow-lg hover:-translate-y-1">
+              <div className="flex flex-col h-full rounded-2xl bg-white p-6 transition-all hover:shadow-lg hover:-translate-y-1 border border-gray-100">
                 <div className="flex items-center gap-1 mb-3">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} className="h-4 w-4 fill-[#D4AF37] text-[#D4AF37]" />

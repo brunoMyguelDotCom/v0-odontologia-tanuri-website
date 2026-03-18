@@ -21,18 +21,18 @@ const team = [
 
 export function TeamSection() {
   return (
-    <section className="bg-[#F5F5F5] py-16 lg:py-24">
+    <section className="bg-[#0B1C2C] py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <ScrollAnimation>
           <div className="text-center">
             <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
               Nossa Equipe
             </span>
-            <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">
+            <h2 className="mt-2 text-3xl font-bold text-white lg:text-4xl">
               Profissionais Especializados
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-[#666666]">
-              Nossa equipe é formada por profissionais altamente qualificados, dedicados a oferecer o melhor atendimento para você.
+            <p className="mx-auto mt-4 max-w-2xl text-gray-300">
+              Nossa equipe e formada por profissionais altamente qualificados, dedicados a oferecer o melhor atendimento para voce.
             </p>
           </div>
         </ScrollAnimation>
@@ -40,7 +40,7 @@ export function TeamSection() {
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {team.map((member, index) => (
             <ScrollAnimation key={member.name} delay={index * 100}>
-              <div className="group relative overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:shadow-xl hover:-translate-y-1">
+              <div className="group relative overflow-hidden rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 transition-all hover:bg-white/15 hover:-translate-y-1">
                 <div className="relative aspect-square overflow-hidden">
                   <Image
                     src={member.image}
@@ -50,9 +50,9 @@ export function TeamSection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0B1C2C]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-center transform translate-y-2 group-hover:translate-y-0 transition-transform">
-                  <div className="bg-white/95 backdrop-blur rounded-xl p-4 shadow-lg">
-                    <h3 className="text-lg font-semibold text-[#1A1A1A]">{member.name}</h3>
+                <div className="absolute bottom-0 left-0 right-0 p-4 text-center transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                  <div className="bg-[#0B1C2C]/90 backdrop-blur rounded-xl p-4 border border-[#D4AF37]/30">
+                    <h3 className="text-lg font-semibold text-white">{member.name}</h3>
                     <p className="text-sm text-[#D4AF37] font-medium">{member.role}</p>
                   </div>
                 </div>

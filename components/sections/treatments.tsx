@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react"
 
 const treatments = [
   {
-    title: "Implantes Dentários",
-    description: "Recupere seu sorriso com implantes de alta qualidade e tecnologia avançada.",
+    title: "Implantes Dentarios",
+    description: "Recupere seu sorriso com implantes de alta qualidade e tecnologia avancada.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/young-man-with-toothy-smile-demonstrating-his-dental-implant-2048x1363-CfusyrZNJgVc7BzeI6G1hHdnUlFHut.jpg",
     href: "/implante-dentario-maringa",
   },
@@ -23,37 +23,49 @@ const treatments = [
     href: "/ortodontia-maringa",
   },
   {
-    title: "Próteses Dentárias",
-    description: "Reabilite sua mastigação e estética com próteses de alta qualidade.",
+    title: "Clareamento Dental",
+    description: "Dentes mais brancos e saudaveis com tecnicas seguras e eficazes.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-whiting-teeth-2048x1365-jDzl0jxvbYsyKXnX7JKYeMH8wOmcF1.jpg",
+    href: "/clareamento-dental-maringa",
+  },
+  {
+    title: "Proteses Dentarias",
+    description: "Reabilite sua mastigacao e estetica com proteses de alta qualidade.",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg",
     href: "/protese-dentaria-maringa",
+  },
+  {
+    title: "Tratamento de Canal",
+    description: "Elimine a dor e preserve seu dente com endodontia especializada.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg",
+    href: "/tratamento-de-canal-maringa",
   },
 ]
 
 export function TreatmentsSection() {
   return (
-    <section id="tratamentos" className="bg-white py-16 lg:py-24">
+    <section id="tratamentos" className="bg-[#0B1C2C] py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <ScrollAnimation>
           <div className="text-center">
             <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
               Nossos Tratamentos
             </span>
-            <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">
+            <h2 className="mt-2 text-3xl font-bold text-white lg:text-4xl">
               Procedimentos Especializados
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-[#666666]">
-              Oferecemos uma ampla gama de tratamentos odontológicos com tecnologia de ponta e profissionais experientes.
+            <p className="mx-auto mt-4 max-w-2xl text-gray-300">
+              Oferecemos uma ampla gama de tratamentos odontologicos com tecnologia de ponta e profissionais experientes.
             </p>
           </div>
         </ScrollAnimation>
         
-        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {treatments.map((treatment, index) => (
             <ScrollAnimation key={treatment.href} delay={index * 100}>
               <Link
                 href={treatment.href}
-                className="group block overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:shadow-xl hover:-translate-y-1"
+                className="group block overflow-hidden rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 transition-all hover:bg-white/15 hover:-translate-y-1"
               >
                 <div className="relative h-48 overflow-hidden">
                   <Image
@@ -64,11 +76,11 @@ export function TreatmentsSection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] group-hover:text-[#D4AF37] transition-colors">
+                <div className="p-5">
+                  <h3 className="text-lg font-semibold text-white group-hover:text-[#D4AF37] transition-colors">
                     {treatment.title}
                   </h3>
-                  <p className="mt-2 text-sm text-[#666666] line-clamp-2">
+                  <p className="mt-2 text-sm text-gray-400 line-clamp-2">
                     {treatment.description}
                   </p>
                   <div className="mt-4 flex items-center text-sm font-medium text-[#D4AF37]">
@@ -85,9 +97,9 @@ export function TreatmentsSection() {
           <div className="mt-12 text-center">
             <Link
               href="/contato"
-              className="inline-flex items-center text-[#0B1C2C] font-medium hover:text-[#D4AF37] transition-colors"
+              className="inline-flex items-center text-white font-medium hover:text-[#D4AF37] transition-colors"
             >
-              Ver todos os tratamentos
+              Agende sua avaliacao gratuita
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>

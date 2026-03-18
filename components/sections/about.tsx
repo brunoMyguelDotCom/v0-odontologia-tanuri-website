@@ -11,8 +11,10 @@ const stats = [
 
 export function AboutSection() {
   return (
-    <section className="bg-[#F5F5F5] py-16 lg:py-24">
-      <div className="mx-auto max-w-7xl px-4 lg:px-8">
+    <section className="relative bg-white py-16 lg:py-24 overflow-hidden">
+      {/* Decorative blue accent */}
+      <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-[#0B1C2C]/5 to-transparent"></div>
+      <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           {/* Image */}
           <ScrollAnimation>
@@ -49,7 +51,7 @@ export function AboutSection() {
                 {stats.map((stat, index) => (
                   <ScrollAnimation key={index} delay={200 + index * 100}>
                     <div className="flex items-center gap-4">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#D4AF37]/10">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#0B1C2C]">
                         <stat.icon className="h-6 w-6 text-[#D4AF37]" />
                       </div>
                       <div>
