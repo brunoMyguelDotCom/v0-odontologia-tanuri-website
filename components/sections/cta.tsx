@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react"
 
 export function CTASection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#FDF8E8] via-[#FAF5E4] to-[#F5EED6] py-12 sm:py-16 lg:py-20 border-y border-[#D4AF37]/20">
+    <section className="relative overflow-hidden bg-gradient-to-br from-[#FFFEF7] via-[#FFFDF2] to-[#FFFBEA] py-12 sm:py-16 lg:py-20 border-y border-[#D4AF37]/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollAnimation direction="scale">
           <div className="relative z-10 text-center">
@@ -36,11 +36,6 @@ export function CTASection() {
             </p>
           </div>
         </ScrollAnimation>
-      </div>
-      
-      {/* Decorative pattern */}
-      <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="absolute top-0 left-0 w-full h-full" style={{ backgroundImage: 'radial-gradient(circle at 20% 50%, #D4AF37 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
       </div>
     </section>
   )
