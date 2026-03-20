@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-white">
+    <section className="relative overflow-hidden bg-white px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:py-12 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
           {/* Content */}
@@ -68,7 +68,7 @@ export function HeroSection() {
             <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none">
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/20 to-[#D4AF37]/5 rounded-2xl sm:rounded-3xl transform rotate-3"></div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img51-1536x1536-fW2NhdEutGilz6xkSuc38Y9H5yII3E.png"
+                src="images\hero-doutor.png"
                 alt="Dr. Rafael R. Tanuri - Especialista em Implantes e Ortodontia"
                 width={600}
                 height={600}

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 const navLinks = [
   { name: "Início", href: "/" },
@@ -16,8 +17,17 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
-      <div className="flex items-center justify-between max-w-7xl mx-auto p-4">
-        <Link href="/" className="font-bold text-xl">Logo</Link>
+      <div className="flex items-center justify-between max-w-7xl mx-auto px-6 lg:px-12 py-4">
+
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo.png"
+            alt="Odontologia Tanuri"
+            width={45}
+            height={40}
+            priority
+          />
+        </Link>
 
         {/* Botão Hamburger */}
         <button

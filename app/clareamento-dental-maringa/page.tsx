@@ -14,7 +14,7 @@ export default function ClareamentoDentalPage() {
       subtitle="Dentes mais brancos de forma segura e eficaz"
       description="O clareamento dental é o procedimento estético mais procurado na odontologia. Na Odontologia Tanuri, oferecemos técnicas modernas para você conquistar dentes mais brancos com segurança e conforto."
       longDescription="O clareamento dental é um procedimento que utiliza agentes clareadores para remover manchas e clarear a cor natural dos dentes. Oferecemos duas modalidades: o clareamento de consultório, realizado pelo dentista com gel de alta concentração e luz de LED, e o clareamento caseiro, feito em casa com moldeiras personalizadas e gel de menor concentração. Ambos os métodos são seguros e eficazes quando realizados sob supervisão profissional. O Dr. Rafael Tanuri avalia cada caso individualmente para indicar o melhor tratamento para você."
-      image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-whiting-teeth-2048x1365-jDzl0jxvbYsyKXnX7JKYeMH8wOmcF1.jpg"
+      image="/images/clareamento.jpg"
       benefits={[
         "Dentes visivelmente mais brancos",
         "Procedimento seguro e supervisionado",

@@ -14,7 +14,7 @@ export default function LenteDeContatoDentalPage() {
       subtitle="Transforme seu sorriso com lentes ultrafinas"
       description="As lentes de contato dental são lâminas ultrafinas de porcelana que são coladas na superfície dos dentes, proporcionando um sorriso perfeito de forma rápida e minimamente invasiva."
       longDescription="As lentes de contato dental são facetas ultrafinas de porcelana ou resina, com espessura de aproximadamente 0,3mm a 0,5mm, que são aplicadas na face frontal dos dentes. Elas são ideais para corrigir imperfeições como dentes manchados, desalinhados, com pequenas fraturas ou espaçados. O procedimento é minimamente invasivo, preservando a maior parte da estrutura dental natural. O resultado é um sorriso harmonioso, natural e duradouro. Na Odontologia Tanuri, utilizamos materiais de alta qualidade e técnicas avançadas para garantir resultados excepcionais."
-      image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-whiting-teeth-2048x1365-jDzl0jxvbYsyKXnX7JKYeMH8wOmcF1.jpg"
+      image="/images/lentes.jpg"
       benefits={[
         "Resultado natural e estético",
         "Procedimento minimamente invasivo",

@@ -14,7 +14,7 @@ export default function ImplanteDentarioPage() {
       subtitle="Recupere seu sorriso com segurança e naturalidade"
       description="O implante dentário é a solução mais moderna e eficaz para substituir dentes perdidos. Na Odontologia Tanuri, utilizamos tecnologia de ponta para garantir resultados naturais e duradouros."
       longDescription="O implante dentário é um pino de titânio que é inserido no osso maxilar ou mandibular, funcionando como uma raiz artificial. Sobre esse pino, é colocada uma coroa (dente artificial) que se integra perfeitamente ao seu sorriso. O procedimento é realizado com anestesia local, garantindo conforto durante todo o processo. Os implantes têm uma taxa de sucesso superior a 98% e podem durar a vida toda com os cuidados adequados. Na Odontologia Tanuri, o Dr. Rafael Tanuri possui mais de 20 anos de experiência em implantodontia, tendo realizado milhares de procedimentos com sucesso."
-      image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/young-man-with-toothy-smile-demonstrating-his-dental-implant-2048x1363-CfusyrZNJgVc7BzeI6G1hHdnUlFHut.jpg"
+      image="/images/implante.jpg"
       benefits={[
         "Aspecto natural e estético",
         "Durabilidade superior (pode durar a vida toda)",

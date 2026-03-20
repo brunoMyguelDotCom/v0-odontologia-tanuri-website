@@ -8,20 +8,29 @@ declare global {
   }
 }
 
+const WHATSAPP_NUMBER = "554497095982"
+
 export function WhatsAppButton() {
   const handleClick = () => {
     // Track WhatsApp click for Google Ads conversion
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'conversion', {
-        'send_to': 'AW-XXXXXXXXXX/XXXXXXXXXXXXXXXX',
-        'event_callback': () => {}
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", "conversion", {
+        send_to: "AW-XXXXXXXXXX/XXXXXXXXXXXXXXXX", // ⚠️ COLOQUE SEU ID REAL
+        value: 1.0,
+        currency: "BRL",
+      })
+
+      // Evento adicional (analytics mais detalhado)
+      window.gtag("event", "whatsapp_click", {
+        event_category: "engagement",
+        event_label: "botao_flutuante",
       })
     }
   }
 
   return (
     <a
-      href="https://wa.me/5544999999999?text=Ola! Gostaria de agendar uma avaliacao na Odontologia Tanuri."
+      href={`https://wa.me/${WHATSAPP_NUMBER}?text=Olá! Vim pelo site e gostaria de agendar uma avaliação.`}
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}

@@ -14,7 +14,7 @@ export default function TratamentoDeCanalPage() {
       subtitle="Salve seu dente com tecnologia e conforto"
       description="O tratamento de canal, ou endodontia, é um procedimento que remove a polpa dental infectada, salvando dentes que de outra forma precisariam ser extraídos. Na Odontologia Tanuri, utilizamos tecnologia moderna para um tratamento eficaz e confortável."
       longDescription="O tratamento de canal é necessário quando a polpa dental (nervo do dente) está inflamada ou infectada, geralmente devido a cáries profundas, fraturas ou traumas. O procedimento consiste em remover a polpa danificada, limpar e desinfectar os canais radiculares, e preenchê-los com um material biocompatível. Ao contrário do que muitos pensam, o tratamento de canal alivia a dor, não a causa. Com anestesia adequada e técnicas modernas, o procedimento é confortável. Na Odontologia Tanuri, utilizamos microscópio operatório e instrumentos rotatórios de última geração para maior precisão e eficácia."
-      image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg"
+      image="/images/canal.jpg"
       benefits={[
         "Preservação do dente natural",
         "Alívio da dor e desconforto",

@@ -11,7 +11,7 @@ const stats = [
 
 export function AboutSection() {
   return (
-    <section className="relative bg-white py-16 lg:py-24 overflow-hidden">
+    <section className="relative bg-white py-16 lg:py-24 overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
           {/* Image */}
@@ -19,7 +19,7 @@ export function AboutSection() {
             <div className="relative">
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/30 to-[#D4AF37]/10 rounded-2xl sm:rounded-3xl transform -rotate-3"></div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg"
+                src="/images/equipamento.jpg"
                 alt="Consultorio moderno da Odontologia Tanuri"
                 width={600}
                 height={400}

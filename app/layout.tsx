@@ -10,14 +10,17 @@ const inter = Inter({
   subsets: ["latin"], 
   variable: "--font-inter",
   display: "swap",
-});
+})
 
 const poppins = Poppins({ 
   subsets: ["latin"], 
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
   display: "swap",
-});
+})
+
+const WHATSAPP = "+55-44-9709-5982"
+const INSTAGRAM = "https://www.instagram.com/dr.rafaeltanuri?igsh=MXNtNXhleDd3Z3oxMQ=="
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -29,67 +32,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://odontologiatanuri.com.br'),
   title: {
-    default: 'Odontologia Tanuri | Dentista em Maringa - PR | Implantes e Lentes de Contato Dental',
+    default: 'Odontologia Tanuri | Dentista em Maringá - PR',
     template: '%s | Odontologia Tanuri',
   },
-  description: 'Clinica odontologica em Maringa especializada em implantes dentarios, lentes de contato dental, ortodontia, clareamento e proteses. Mais de 20 anos de experiencia. Agende sua avaliacao gratuita!',
-  keywords: [
-    'dentista maringa',
-    'implante dentario maringa',
-    'lente de contato dental maringa',
-    'ortodontia maringa',
-    'clareamento dental maringa',
-    'protese dentaria maringa',
-    'tratamento de canal maringa',
-    'dentista em maringa',
-    'clinica odontologica maringa',
-    'implante dental maringa',
-    'aparelho ortodontico maringa',
-  ],
-  authors: [{ name: 'Dr. Rafael R. Tanuri' }],
-  creator: 'Odontologia Tanuri',
-  publisher: 'Odontologia Tanuri',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  openGraph: {
-    title: 'Odontologia Tanuri | Dentista em Maringa - PR',
-    description: 'Transforme seu sorriso com quem esta ha mais de 20 anos cuidando de vidas em Maringa. Implantes, lentes de contato dental, ortodontia e mais.',
-    url: 'https://odontologiatanuri.com.br',
-    siteName: 'Odontologia Tanuri',
-    locale: 'pt_BR',
-    type: 'website',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Odontologia Tanuri - Clinica Odontologica em Maringa',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Odontologia Tanuri | Dentista em Maringa - PR',
-    description: 'Transforme seu sorriso com quem esta ha mais de 20 anos cuidando de vidas em Maringa.',
-    images: ['/og-image.jpg'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  verification: {
-    google: 'sua-verificacao-google',
-  },
+  description: 'Clínica odontológica em Maringá especializada em implantes dentários, lentes de contato dental e ortodontia.',
   alternates: {
     canonical: 'https://odontologiatanuri.com.br',
   },
@@ -97,23 +43,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="pt-BR" data-scroll-behavior="smooth">
+    <html lang="pt-BR">
       <head>
-        {/* Google Ads Conversion Tracking - Replace with your ID */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-            `,
-          }}
-        />
-        {/* Schema.org structured data for local business */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -121,74 +56,22 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Dentist",
               "name": "Odontologia Tanuri",
-              "description": "Clinica odontologica em Maringa especializada em implantes dentarios, lentes de contato dental, ortodontia e mais.",
               "url": "https://odontologiatanuri.com.br",
-              "telephone": "+55-44-99999-9999",
+              "telephone": WHATSAPP,
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Endereco da Clinica",
-                "addressLocality": "Maringa",
+                "streetAddress": "Av. Brasil, 1234",
+                "addressLocality": "Maringá",
                 "addressRegion": "PR",
-                "postalCode": "87000-000",
+                "postalCode": "87013-000",
                 "addressCountry": "BR"
               },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "-23.4205",
-                "longitude": "-51.9333"
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                  "opens": "08:00",
-                  "closes": "18:00"
-                }
-              ],
-              "priceRange": "$$",
-              "image": "https://odontologiatanuri.com.br/og-image.jpg",
-              "sameAs": [
-                "https://instagram.com/odontologiatanuri",
-                "https://facebook.com/odontologiatanuri"
-              ],
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "Servicos Odontologicos",
-                "itemListElement": [
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Implante Dentario"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Lente de Contato Dental"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Ortodontia"
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
-                      "@type": "Service",
-                      "name": "Clareamento Dental"
-                    }
-                  }
-                ]
-              }
+              "sameAs": [INSTAGRAM]
             }),
           }}
         />
       </head>
+
       <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         <Header />
         <main>{children}</main>

@@ -15,7 +15,7 @@ const posts = [
     slug: "implante-dentario-doi",
     title: "Implante dentário dói? Descubra a verdade sobre o procedimento",
     excerpt: "Muitos pacientes têm receio do procedimento de implante por medo da dor. Neste artigo, explicamos como funciona e por que você não precisa ter medo.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/young-man-with-toothy-smile-demonstrating-his-dental-implant-2048x1363-CfusyrZNJgVc7BzeI6G1hHdnUlFHut.jpg",
+    image: "/images/implante.jpg",
     date: "15 Mar 2026",
     readTime: "5 min",
   },
@@ -23,7 +23,7 @@ const posts = [
     slug: "quanto-custa-implante-dentario",
     title: "Quanto custa um implante dentário? Fatores que influenciam o preço",
     excerpt: "O valor do implante dentário pode variar bastante. Entenda os fatores que influenciam o preço e como fazer um investimento inteligente em sua saúde bucal.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg",
+    image: "/images/ortodontia.jpg",
     date: "10 Mar 2026",
     readTime: "7 min",
   },
@@ -47,7 +47,7 @@ const posts = [
     slug: "como-escolher-dentista",
     title: "Como escolher um dentista: 7 dicas essenciais",
     excerpt: "Escolher o dentista certo é fundamental para sua saúde bucal. Confira nossas dicas para encontrar o profissional ideal.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-33-768x768-UAk3JCeBO3pApstbU4crzUzaAKNSRU.png",
+    image: "/images/hero-doutor.png",
     date: "20 Fev 2026",
     readTime: "5 min",
   },
@@ -57,7 +57,7 @@ export default function BlogPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20">
+      <section className="bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20 px-8 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <nav className="mb-4 flex items-center gap-2 text-sm text-[#666666]">
             <Link href="/" className="hover:text-[#D4AF37] transition-colors">
@@ -79,7 +79,7 @@ export default function BlogPage() {
       </section>
 
       {/* Posts */}
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-white py-16 lg:py-24 px-8 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((post, index) => (

@@ -11,7 +11,7 @@ const specialties = [
 
 export function DoctorSection() {
   return (
-    <section className="bg-gradient-to-b from-white to-[#F8F9FA] py-16 lg:py-24">
+    <section className="bg-gradient-to-b from-white to-[#F8F9FA] py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
           {/* Content */}
@@ -73,7 +73,7 @@ export function DoctorSection() {
             <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none order-1 lg:order-2">
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/30 to-[#D4AF37]/10 rounded-2xl sm:rounded-3xl transform rotate-3"></div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-33-768x768-UAk3JCeBO3pApstbU4crzUzaAKNSRU.png"
+                src="/images/body-doutor.png"
                 alt="Dr. Rafael R. Tanuri"
                 width={500}
                 height={500}

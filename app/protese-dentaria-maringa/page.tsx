@@ -14,7 +14,7 @@ export default function ProteseDentariaPage() {
       subtitle="Reabilite seu sorriso com naturalidade e conforto"
       description="As próteses dentárias são soluções eficazes para substituir dentes perdidos, devolvendo a função mastigatória e a estética do sorriso. Na Odontologia Tanuri, trabalhamos com diversos tipos de próteses para atender suas necessidades."
       longDescription="A prótese dentária é um dispositivo que substitui dentes ausentes, podendo ser fixa ou removível. As próteses fixas incluem coroas e pontes, que são cimentadas sobre dentes naturais ou implantes. As próteses removíveis incluem dentaduras e próteses parciais, que podem ser retiradas para higienização. Na Odontologia Tanuri, utilizamos materiais de alta qualidade e tecnologia moderna para criar próteses que se assemelham aos dentes naturais, proporcionando conforto, funcionalidade e estética. Também oferecemos próteses sobre implantes, que combinam a estabilidade dos implantes com a praticidade das próteses."
-      image="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg"
+      image="/images/protese.png"
       benefits={[
         "Recuperação da função mastigatória",
         "Melhora na fala e dicção",

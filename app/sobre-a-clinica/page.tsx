@@ -61,7 +61,7 @@ export default function SobreAClinicaPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
             <div>
@@ -72,25 +72,25 @@ export default function SobreAClinicaPage() {
                 <span>/</span>
                 <span className="text-[#1A1A1A]">Sobre a Clínica</span>
               </nav>
-              
+
               <h1 className="text-3xl font-bold tracking-tight text-[#1A1A1A] sm:text-4xl lg:text-5xl text-balance">
                 Conheça a{" "}
                 <span className="text-[#D4AF37]">Odontologia Tanuri</span>
               </h1>
-              
+
               <p className="mt-6 text-lg text-[#666666] leading-relaxed">
                 Há mais de 20 anos transformando sorrisos e cuidando da saúde bucal de Maringá e região. Nossa história é construída sobre pilares de excelência, humanização e inovação.
               </p>
-              
+
               <p className="mt-4 text-lg text-[#666666] leading-relaxed">
                 Fundada pelo Dr. Rafael R. Tanuri, nossa clínica nasceu do sonho de oferecer um atendimento odontológico diferenciado, onde cada paciente é tratado com o cuidado e a atenção que merece.
               </p>
             </div>
-            
+
             <div className="relative">
               <div className="absolute -inset-4 bg-[#D4AF37]/10 rounded-3xl transform rotate-3"></div>
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg"
+                src="/images/equipamento.jpg"
                 alt="Consultório moderno da Odontologia Tanuri"
                 width={600}
                 height={400}
@@ -103,7 +103,7 @@ export default function SobreAClinicaPage() {
       </section>
 
       {/* Mission, Vision, Values */}
-      <section className="bg-[#0B1C2C] py-16 lg:py-24 text-white">
+      <section className="bg-[#0B1C2C] py-16 lg:py-24 text-white px-6 sm:px-8 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
@@ -111,7 +111,7 @@ export default function SobreAClinicaPage() {
                 Nossa <span className="text-[#D4AF37]">Missão</span>
               </h2>
               <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-300 leading-relaxed">
-                Proporcionar saúde bucal e bem-estar através de tratamentos odontológicos de excelência, 
+                Proporcionar saúde bucal e bem-estar através de tratamentos odontológicos de excelência,
                 utilizando tecnologia avançada e um atendimento humanizado que valoriza cada paciente como único.
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function SobreAClinicaPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-white py-16 lg:py-24 px-8 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
@@ -149,7 +149,7 @@ export default function SobreAClinicaPage() {
 
           <div className="mt-12 relative">
             <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-[#D4AF37]/30 transform -translate-x-1/2 hidden lg:block"></div>
-            
+
             <div className="space-y-8 lg:space-y-12">
               {timeline.map((item, index) => (
                 <ScrollAnimation key={item.year} delay={index * 100}>
@@ -174,7 +174,7 @@ export default function SobreAClinicaPage() {
       </section>
 
       {/* Team */}
-      <section className="bg-[#F5F5F5] py-16 lg:py-24">
+      <section className="bg-[#F5F5F5] py-16 lg:py-24 px-8 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
@@ -196,25 +196,25 @@ export default function SobreAClinicaPage() {
                 name: "Dr. Rafael R. Tanuri",
                 role: "Diretor Clínico",
                 specialty: "Implantodontia, Ortodontia",
-                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-33-768x768-UAk3JCeBO3pApstbU4crzUzaAKNSRU.png",
+                image: "/images/body-doutor.png",
               },
               {
                 name: "Dra. Maria Silva",
                 role: "Ortodontista",
                 specialty: "Ortodontia e Ortopedia Facial",
-                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr1-768x768-FxREkDPad1TlV9FkHEiYmNuLf6ND0i.png",
+                image: "/images/equipe-dr01.png",
               },
               {
                 name: "Dra. Ana Oliveira",
                 role: "Endodontista",
                 specialty: "Tratamento de Canal",
-                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr2-768x768-ZatMOWXCOD3iOz2KKJ3y8zjV2IVz4d.png",
+                image: "/images/equipe-dr02.png",
               },
               {
                 name: "Dra. Paula Santos",
                 role: "Periodontista",
                 specialty: "Periodontia e Estética",
-                image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dr3-768x768-aK992RWchzeLo1M2YYcQzFxZVvjtS7.png",
+                image: "/images/equipe-dr03.png",
               },
             ].map((member, index) => (
               <ScrollAnimation key={member.name} delay={index * 100}>

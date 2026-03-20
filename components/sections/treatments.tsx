@@ -7,44 +7,44 @@ const treatments = [
   {
     title: "Implantes Dentarios",
     description: "Recupere seu sorriso com implantes de alta qualidade e tecnologia avancada.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/young-man-with-toothy-smile-demonstrating-his-dental-implant-2048x1363-CfusyrZNJgVc7BzeI6G1hHdnUlFHut.jpg",
+    image: "/images/implante.jpg",
     href: "/implante-dentario-maringa",
   },
   {
     title: "Lentes de Contato Dental",
     description: "Transforme seu sorriso com lentes ultrafinas e resultados naturais.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-whiting-teeth-2048x1365-jDzl0jxvbYsyKXnX7JKYeMH8wOmcF1.jpg",
+    image: "/images/lentes.jpg",
     href: "/lente-de-contato-dental-maringa",
   },
   {
     title: "Ortodontia",
     description: "Alinhe seus dentes com aparelhos modernos e tratamentos personalizados.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-holding-dental-plastic-model-with-braces-1536x1024-gWq6kp9QAurRVM43FIPJQXDxEnqBbQ.jpg",
+    image: "/images/ortodontia.jpg",
     href: "/ortodontia-maringa",
   },
   {
     title: "Clareamento Dental",
     description: "Dentes mais brancos e saudaveis com tecnicas seguras e eficazes.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dentist-whiting-teeth-2048x1365-jDzl0jxvbYsyKXnX7JKYeMH8wOmcF1.jpg",
+    image: "/images/clareamento.jpg",
     href: "/clareamento-dental-maringa",
   },
   {
     title: "Proteses Dentarias",
     description: "Reabilite sua mastigacao e estetica com proteses de alta qualidade.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg",
+    image: "/images/protese.png",
     href: "/protese-dentaria-maringa",
   },
   {
     title: "Tratamento de Canal",
     description: "Elimine a dor e preserve seu dente com endodontia especializada.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dental-cabinet-with-various-medical-equipment-scaled-g6KF0db2DRz8Tt3wTnDBJ2EZ1RdZ2J.jpg",
+    image: "/images/canal.jpg",
     href: "/tratamento-de-canal-maringa",
   },
 ]
 
 export function TreatmentsSection() {
   return (
-    <section id="tratamentos" className="bg-[#F8F9FA] py-16 lg:py-24">
+    <section id="tratamentos" className="bg-[#F8F9FA] py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollAnimation direction="fade">
           <div className="text-center">
@@ -59,11 +59,11 @@ export function TreatmentsSection() {
             </p>
           </div>
         </ScrollAnimation>
-        
+
         <div className="mt-10 sm:mt-12 grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {treatments.map((treatment, index) => (
-            <ScrollAnimation 
-              key={treatment.href} 
+            <ScrollAnimation
+              key={treatment.href}
               delay={index * 80}
               direction={index % 2 === 0 ? "left" : "right"}
             >
@@ -101,7 +101,7 @@ export function TreatmentsSection() {
             </ScrollAnimation>
           ))}
         </div>
-        
+
         <ScrollAnimation delay={500} direction="up">
           <div className="mt-10 sm:mt-12 text-center">
             <Link

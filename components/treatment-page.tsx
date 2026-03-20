@@ -44,7 +44,7 @@ export function TreatmentPage({
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-white via-white to-[#F5F5F5] py-12 lg:py-20 px-5 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
             <div>
@@ -55,19 +55,19 @@ export function TreatmentPage({
                 <span>/</span>
                 <span className="text-[#1A1A1A]">{title}</span>
               </nav>
-              
+
               <h1 className="text-3xl font-bold tracking-tight text-[#1A1A1A] sm:text-4xl lg:text-5xl text-balance">
                 {title} <span className="text-[#D4AF37]">em Maringá</span>
               </h1>
-              
+
               <p className="mt-2 text-lg text-[#D4AF37] font-medium">
                 {subtitle}
               </p>
-              
+
               <p className="mt-6 text-lg text-[#666666] leading-relaxed">
                 {description}
               </p>
-              
+
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Button
                   asChild
@@ -85,7 +85,7 @@ export function TreatmentPage({
                 </Button>
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="absolute -inset-4 bg-[#D4AF37]/10 rounded-3xl transform rotate-3"></div>
               <Image
@@ -102,7 +102,7 @@ export function TreatmentPage({
       </section>
 
       {/* Description */}
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-white py-16 lg:py-24 px-4 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="mx-auto max-w-3xl">
@@ -118,7 +118,7 @@ export function TreatmentPage({
       </section>
 
       {/* Benefits and Indications */}
-      <section className="bg-[#F5F5F5] py-16 lg:py-24">
+      <section className="bg-[#F5F5F5] py-16 lg:py-24 px-4 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
             {/* Benefits */}
@@ -159,7 +159,7 @@ export function TreatmentPage({
       </section>
 
       {/* FAQ */}
-      <section className="bg-white py-16 lg:py-24">
+      <section className="bg-white py-16 lg:py-24 px-6 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
