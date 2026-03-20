@@ -23,9 +23,7 @@ export function DoctorSection() {
               <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#0B1C2C] lg:text-4xl text-balance">
                 Dr. Rafael R. Tanuri
               </h2>
-              <p className="mt-2 text-base sm:text-lg text-[#D4AF37]">
-                CRO-PR 12345
-              </p>
+              
               <p className="mt-4 sm:mt-6 text-[#666666] leading-relaxed text-sm sm:text-base">
                 Com mais de 20 anos dedicados a odontologia, o Dr. Rafael Tanuri e referencia em implantes dentarios, ortodontia e ortopedia facial em Maringa e regiao. Sua abordagem combina tecnica apurada com um atendimento humanizado.
               </p>
@@ -57,7 +55,7 @@ export function DoctorSection() {
                   className="w-full sm:w-auto bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all duration-300 hover:scale-105 text-sm sm:text-base"
                 >
                   <a
-                    href="https://wa.me/5544999999999?text=Ola! Gostaria de agendar uma consulta com o Dr. Rafael."
+                    href="https://wa.me/554497095982?text=Ola! Gostaria de agendar uma consulta com o Dr. Rafael."
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -136,7 +136,7 @@ export default function BlogPostPage() {
                 className="mt-6 bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold"
               >
                 <a
-                  href="https://wa.me/5544999999999?text=Olá! Gostaria de saber mais sobre lentes de contato dental."
+                  href="https://wa.me/554497095982?text=Olá! Gostaria de saber mais sobre lentes de contato dental."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

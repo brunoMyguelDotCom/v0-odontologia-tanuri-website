@@ -43,7 +43,7 @@ export function HeroSection() {
                 className="bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base"
               >
                 <a
-                  href="https://wa.me/5544999999999?text=Ola! Gostaria de agendar uma avaliacao gratuita."
+                  href="https://wa.me/554497095982?text=Ola! Gostaria de agendar uma avaliacao."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

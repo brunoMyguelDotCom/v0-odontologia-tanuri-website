@@ -14,7 +14,7 @@ export default function OrtodontiaPage() {
       subtitle="Alinhe seus dentes e transforme seu sorriso"
       description="A ortodontia é a especialidade que corrige a posição dos dentes e dos ossos maxilares. Na Odontologia Tanuri, oferecemos diversas opções de tratamento ortodôntico, desde aparelhos convencionais até alinhadores transparentes."
       longDescription="O tratamento ortodôntico vai muito além da estética. Dentes alinhados são mais fáceis de higienizar, reduzindo o risco de cáries e doenças gengivais. Além disso, uma mordida correta previne problemas na articulação temporomandibular (ATM) e distribui melhor as forças da mastigação. Na Odontologia Tanuri, o Dr. Rafael Tanuri é especialista em ortodontia e ortopedia facial, oferecendo tratamentos personalizados para crianças, adolescentes e adultos. Trabalhamos com aparelhos metálicos, estéticos (de porcelana), autoligados e alinhadores transparentes."
-      image="/images/ortodontia.jpG"
+      image="/images/ortodontia.jpg"
       benefits={[
         "Dentes alinhados e sorriso harmonioso",
         "Melhora na mastigação e fala",

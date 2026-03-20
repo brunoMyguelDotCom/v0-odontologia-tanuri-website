@@ -256,7 +256,7 @@ export default function SobreAClinicaPage() {
                 className="bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all hover:scale-[1.03] shadow-lg"
               >
                 <a
-                  href="https://wa.me/5544999999999?text=Olá! Gostaria de conhecer a clínica."
+                  href="https://wa.me/554497095982?text=Olá! Gostaria de conhecer a clínica."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
