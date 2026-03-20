@@ -38,17 +38,17 @@ export default function BlogPostPage() {
           </Link>
           
           <h1 className="text-3xl font-bold tracking-tight text-[#1A1A1A] sm:text-4xl lg:text-5xl text-balance">
-            Diferença entre prótese e implante: qual a melhor opção?
+            Diferença entre prótese e implante: qual é a melhor opção?
           </h1>
           
           <div className="mt-6 flex items-center gap-4 text-[#666666]">
             <span className="flex items-center gap-1">
               <Calendar className="h-4 w-4" />
-              28 Fev 2026
+              28 de fevereiro de 2026
             </span>
             <span className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
-              6 min de leitura
+              6 minutos de leitura
             </span>
           </div>
         </div>
@@ -72,23 +72,23 @@ export default function BlogPostPage() {
           <ScrollAnimation delay={100}>
             <article className="prose prose-lg max-w-none">
               <p className="text-lg text-[#666666] leading-relaxed">
-                Quando se trata de substituir dentes perdidos, duas opções são frequentemente consideradas: <strong>prótese</strong> e <strong>implante</strong>. Mas qual a diferença entre eles? E qual é a melhor opção para você? Vamos esclarecer essas dúvidas.
+                Quando se trata de substituir dentes perdidos, duas opções são frequentemente consideradas: <strong>prótese</strong> e <strong>implante</strong>. Mas qual é a diferença entre eles? E qual é a melhor opção para você? Vamos esclarecer essas dúvidas.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">O que é implante dentário?</h2>
               <p className="text-[#666666] leading-relaxed">
-                O implante dentário é um pino de titânio que é inserido cirurgicamente no osso maxilar ou mandibular. Ele funciona como uma raiz artificial, sobre a qual é colocada uma coroa (dente). O implante se integra ao osso (osseointegração), proporcionando estabilidade e durabilidade.
+                O implante dentário é um pino de titânio inserido cirurgicamente no osso maxilar ou mandibular. Ele funciona como uma raiz artificial, sobre a qual é colocada uma coroa (dente). O implante se integra ao osso (osseointegração), proporcionando estabilidade e durabilidade.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">O que é prótese dentária?</h2>
               <p className="text-[#666666] leading-relaxed">
-                A prótese dentária é um dispositivo que substitui os dentes perdidos. Pode ser:
+                A prótese dentária é um dispositivo que substitui dentes perdidos. Ela pode ser:
               </p>
               <ul className="list-disc pl-6 text-[#666666] space-y-2">
-                <li><strong>Prótese fixa (ponte):</strong> Apoiada nos dentes vizinhos</li>
-                <li><strong>Prótese removível parcial:</strong> Substitui alguns dentes</li>
-                <li><strong>Prótese removível total (dentadura):</strong> Substitui todos os dentes</li>
-                <li><strong>Prótese sobre implante:</strong> Combinação de implante com prótese</li>
+                <li><strong>Prótese fixa (ponte):</strong> apoiada nos dentes vizinhos</li>
+                <li><strong>Prótese removível parcial:</strong> substitui alguns dentes</li>
+                <li><strong>Prótese removível total (dentadura):</strong> substitui todos os dentes</li>
+                <li><strong>Prótese sobre implante:</strong> combinação de implante com prótese</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">Comparativo: Implante vs Prótese</h2>
@@ -106,7 +106,7 @@ export default function BlogPostPage() {
                     <tr>
                       <td className="border p-3">Durabilidade</td>
                       <td className="border p-3">Pode durar a vida toda</td>
-                      <td className="border p-3">5-7 anos em média</td>
+                      <td className="border p-3">Em média 5-7 anos</td>
                     </tr>
                     <tr>
                       <td className="border p-3">Estabilidade</td>
@@ -144,7 +144,7 @@ export default function BlogPostPage() {
                 <li>Orçamento disponível</li>
               </ul>
               <p className="text-[#666666] leading-relaxed mt-4">
-                Em geral, quando possível, o implante é a opção mais recomendada por oferecer maior durabilidade, conforto e preservação da estrutura óssea. Porém, a prótese continua sendo uma excelente opção em muitos casos.
+                Em geral, quando possível, o implante é a opção mais recomendada por oferecer maior durabilidade, conforto e preservação da estrutura óssea. Entretanto, a prótese continua sendo uma excelente opção em muitos casos.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">Prótese sobre implante: o melhor dos dois mundos</h2>

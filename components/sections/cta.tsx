@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { MessageCircle, Instagram } from "lucide-react"
 
 const WHATSAPP = "554497095982"
-const INSTAGRAM = "https://www.instagram.com/dr.rafaeltanuri?igsh=MXNtNXhleDd3Z3oxMQ=="
+const INSTAGRAM = "https://www.instagram.com/dr.rafaeltanuri/"
 
 export function CTASection() {
   return (
@@ -21,8 +21,8 @@ export function CTASection() {
 
             {/* SUB */}
             <p className="mx-auto mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg text-[#666666] leading-relaxed">
-              Descubra o que está impedindo você de ter confiança ao sorrir.
-              Agende sua avaliação e veja o plano ideal para o seu caso.
+              Descubra o que está impedindo você de sorrir com confiança.
+              Agende sua avaliação e conheça o plano ideal para o seu caso.
             </p>
 
             {/* BOTÕES */}

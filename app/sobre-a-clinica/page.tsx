@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { ScrollAnimation } from "@/components/scroll-animation"
 import { Button } from "@/components/ui/button"
-import { Award, Heart, Shield, Target, Users, Zap, MessageCircle } from "lucide-react"
+import { Award, Heart, Shield, Zap, MessageCircle } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Sobre a Clínica | Odontologia Tanuri - Maringá",
@@ -15,17 +15,17 @@ const values = [
   {
     icon: Heart,
     title: "Humanização",
-    description: "Tratamos cada paciente como único, com atenção e cuidado personalizado.",
+    description: "Cada paciente é tratado de forma única, com atenção e cuidado personalizados.",
   },
   {
     icon: Shield,
     title: "Segurança",
-    description: "Seguimos rigorosos protocolos de biossegurança e esterilização.",
+    description: "Seguimos protocolos rigorosos de biossegurança e esterilização.",
   },
   {
     icon: Award,
     title: "Excelência",
-    description: "Buscamos constantemente o melhor resultado para nossos pacientes.",
+    description: "Buscamos sempre o melhor resultado para nossos pacientes.",
   },
   {
     icon: Zap,
@@ -66,16 +66,13 @@ export default function SobreAClinicaPage() {
           <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
             <div>
               <nav className="mb-4 flex items-center gap-2 text-sm text-[#666666]">
-                <Link href="/" className="hover:text-[#D4AF37] transition-colors">
-                  Início
-                </Link>
+                <Link href="/" className="hover:text-[#D4AF37] transition-colors">Início</Link>
                 <span>/</span>
                 <span className="text-[#1A1A1A]">Sobre a Clínica</span>
               </nav>
 
               <h1 className="text-3xl font-bold tracking-tight text-[#1A1A1A] sm:text-4xl lg:text-5xl text-balance">
-                Conheça a{" "}
-                <span className="text-[#D4AF37]">Odontologia Tanuri</span>
+                Conheça a <span className="text-[#D4AF37]">Odontologia Tanuri</span>
               </h1>
 
               <p className="mt-6 text-lg text-[#666666] leading-relaxed">
@@ -83,7 +80,7 @@ export default function SobreAClinicaPage() {
               </p>
 
               <p className="mt-4 text-lg text-[#666666] leading-relaxed">
-                Fundada pelo Dr. Rafael R. Tanuri, nossa clínica nasceu do sonho de oferecer um atendimento odontológico diferenciado, onde cada paciente é tratado com o cuidado e a atenção que merece.
+                Fundada pelo Dr. Rafael R. Tanuri, a clínica nasceu do sonho de oferecer atendimento odontológico diferenciado, tratando cada paciente com cuidado e atenção.
               </p>
             </div>
 
@@ -102,7 +99,7 @@ export default function SobreAClinicaPage() {
         </div>
       </section>
 
-      {/* Mission, Vision, Values */}
+      {/* Missão e Valores */}
       <section className="bg-[#0B1C2C] py-16 lg:py-24 text-white px-6 sm:px-8 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
@@ -111,8 +108,7 @@ export default function SobreAClinicaPage() {
                 Nossa <span className="text-[#D4AF37]">Missão</span>
               </h2>
               <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-300 leading-relaxed">
-                Proporcionar saúde bucal e bem-estar através de tratamentos odontológicos de excelência,
-                utilizando tecnologia avançada e um atendimento humanizado que valoriza cada paciente como único.
+                Proporcionar saúde bucal e bem-estar por meio de tratamentos odontológicos de excelência, utilizando tecnologia avançada e atendimento humanizado que valoriza cada paciente.
               </p>
             </div>
           </ScrollAnimation>
@@ -138,12 +134,8 @@ export default function SobreAClinicaPage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
-              <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
-                Nossa Trajetória
-              </span>
-              <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">
-                Uma História de Sucesso
-              </h2>
+              <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">Nossa Trajetória</span>
+              <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">Uma História de Sucesso</h2>
             </div>
           </ScrollAnimation>
 
@@ -173,17 +165,13 @@ export default function SobreAClinicaPage() {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Equipe */}
       <section className="bg-[#F5F5F5] py-16 lg:py-24 px-8 sm:px-12 lg:px-16">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <ScrollAnimation>
             <div className="text-center">
-              <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
-                Nossa Equipe
-              </span>
-              <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">
-                Profissionais Dedicados
-              </h2>
+              <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">Nossa Equipe</span>
+              <h2 className="mt-2 text-3xl font-bold text-[#1A1A1A] lg:text-4xl">Profissionais Dedicados</h2>
               <p className="mx-auto mt-4 max-w-2xl text-[#666666]">
                 Nossa equipe é formada por profissionais altamente qualificados e apaixonados pelo que fazem.
               </p>

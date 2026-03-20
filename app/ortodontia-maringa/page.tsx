@@ -12,8 +12,8 @@ export default function OrtodontiaPage() {
     <TreatmentPage
       title="Ortodontia"
       subtitle="Alinhe seus dentes e transforme seu sorriso"
-      description="A ortodontia é a especialidade que corrige a posição dos dentes e dos ossos maxilares. Na Odontologia Tanuri, oferecemos diversas opções de tratamento ortodôntico, desde aparelhos convencionais até alinhadores transparentes."
-      longDescription="O tratamento ortodôntico vai muito além da estética. Dentes alinhados são mais fáceis de higienizar, reduzindo o risco de cáries e doenças gengivais. Além disso, uma mordida correta previne problemas na articulação temporomandibular (ATM) e distribui melhor as forças da mastigação. Na Odontologia Tanuri, o Dr. Rafael Tanuri é especialista em ortodontia e ortopedia facial, oferecendo tratamentos personalizados para crianças, adolescentes e adultos. Trabalhamos com aparelhos metálicos, estéticos (de porcelana), autoligados e alinhadores transparentes."
+      description="A ortodontia corrige a posição dos dentes e dos ossos maxilares. Na Odontologia Tanuri, oferecemos tratamentos personalizados, desde aparelhos convencionais até alinhadores transparentes."
+      longDescription="O tratamento ortodôntico vai além da estética. Dentes alinhados são mais fáceis de higienizar, reduzindo o risco de cáries e doenças gengivais. Uma mordida correta previne problemas na articulação temporomandibular (ATM) e distribui melhor as forças da mastigação. Na Odontologia Tanuri, o Dr. Rafael Tanuri é especialista em ortodontia e ortopedia facial, oferecendo soluções personalizadas para crianças, adolescentes e adultos. Trabalhamos com aparelhos metálicos, estéticos (porcelana), autoligados e alinhadores transparentes."
       image="/images/ortodontia.jpg"
       benefits={[
         "Dentes alinhados e sorriso harmonioso",
@@ -34,19 +34,19 @@ export default function OrtodontiaPage() {
       faqs={[
         {
           question: "Qual a idade ideal para iniciar o tratamento ortodôntico?",
-          answer: "Recomenda-se uma avaliação ortodôntica a partir dos 7 anos de idade. No entanto, nunca é tarde para começar o tratamento. Adultos também podem se beneficiar da ortodontia.",
+          answer: "A avaliação ortodôntica é recomendada a partir dos 7 anos. No entanto, adultos também podem iniciar o tratamento e obter ótimos resultados.",
         },
         {
           question: "Quanto tempo dura o tratamento ortodôntico?",
-          answer: "A duração varia de acordo com a complexidade do caso. Em média, o tratamento dura de 18 a 36 meses. Casos mais simples podem ser resolvidos em menos tempo.",
+          answer: "A duração depende da complexidade do caso. Em média, varia de 18 a 36 meses. Casos simples podem ser concluídos em menos tempo.",
         },
         {
           question: "O aparelho ortodôntico dói?",
-          answer: "É normal sentir um desconforto nos primeiros dias após a colocação do aparelho e após os ajustes mensais. Essa sensibilidade é temporária e pode ser aliviada com analgésicos comuns.",
+          answer: "É comum sentir desconforto nos primeiros dias após a colocação do aparelho e após ajustes mensais. Essa sensibilidade é temporária e pode ser aliviada com analgésicos comuns.",
         },
         {
           question: "Posso usar aparelho invisível?",
-          answer: "Sim! Oferecemos tratamento com alinhadores transparentes, que são uma ótima opção para quem busca discrição. Na avaliação, verificamos se você é um candidato para esse tipo de tratamento.",
+          answer: "Sim! Trabalhamos com alinhadores transparentes, ideais para quem busca discrição. Na avaliação, verificamos se você é candidato a esse tipo de tratamento.",
         },
       ]}
       relatedTreatments={[

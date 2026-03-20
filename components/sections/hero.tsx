@@ -11,23 +11,23 @@ export function HeroSection() {
           {/* Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <Badge className="mb-4 bg-[#D4AF37]/10 text-[#D4AF37] hover:bg-[#D4AF37]/20 border-[#D4AF37]/30">
-              +20 Anos de Experiencia
+              +20 Anos de Experiência
             </Badge>
             
             <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl text-balance leading-tight">
-              Transforme seu sorriso com quem esta ha mais de{" "}
-              <span className="text-[#D4AF37]">20 anos</span> cuidando de vidas em Maringa
+              Transforme seu sorriso com quem está há mais de{" "}
+              <span className="text-[#D4AF37]">20 anos</span> cuidando de vidas em Maringá
             </h1>
             
             <p className="mt-4 sm:mt-6 text-base sm:text-lg text-[#666666] leading-relaxed">
-              Na Odontologia Tanuri, combinamos tecnologia de ponta com atendimento humanizado para garantir que voce tenha o sorriso dos seus sonhos.
+              Na Odontologia Tanuri, combinamos tecnologia de ponta com atendimento humanizado para garantir que você tenha o sorriso dos seus sonhos.
             </p>
             
             <ul className="mt-4 sm:mt-6 space-y-2 sm:space-y-3 text-left mx-auto lg:mx-0 max-w-md lg:max-w-none">
               {[
                 "Atendimento humanizado e personalizado",
-                "Tecnologia moderna e equipamentos de ultima geracao",
-                "Profissionais especializados e em constante atualizacao",
+                "Tecnologia moderna e equipamentos de última geração",
+                "Profissionais especializados e em constante atualização",
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-2 sm:gap-3">
                   <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#D4AF37] flex-shrink-0" />
@@ -43,11 +43,11 @@ export function HeroSection() {
                 className="bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all duration-300 hover:scale-105 shadow-lg text-sm sm:text-base"
               >
                 <a
-                  href="https://wa.me/554497095982?text=Ola! Gostaria de agendar uma avaliacao."
+                  href="https://wa.me/554497095982?text=Olá! Gostaria de agendar uma avaliação."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Agendar Avaliacao Gratuita
+                  Agendar Avaliação Gratuita
                 </a>
               </Button>
               <Button
@@ -57,7 +57,7 @@ export function HeroSection() {
                 className="border-[#0B1C2C] text-[#0B1C2C] hover:bg-[#0B1C2C] hover:text-white transition-all duration-300 text-sm sm:text-base"
               >
                 <a href="#tratamentos">
-                  Conheca Nossos Tratamentos
+                  Conheça Nossos Tratamentos
                 </a>
               </Button>
             </div>
@@ -68,7 +68,7 @@ export function HeroSection() {
             <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none">
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/20 to-[#D4AF37]/5 rounded-2xl sm:rounded-3xl transform rotate-3"></div>
               <Image
-                src="images\hero-doutor.png"
+                src="images/hero-doutor.png"
                 alt="Dr. Rafael R. Tanuri - Especialista em Implantes e Ortodontia"
                 width={600}
                 height={600}

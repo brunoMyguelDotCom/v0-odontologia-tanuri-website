@@ -12,41 +12,41 @@ export default function ProteseDentariaPage() {
     <TreatmentPage
       title="Prótese Dentária"
       subtitle="Reabilite seu sorriso com naturalidade e conforto"
-      description="As próteses dentárias são soluções eficazes para substituir dentes perdidos, devolvendo a função mastigatória e a estética do sorriso. Na Odontologia Tanuri, trabalhamos com diversos tipos de próteses para atender suas necessidades."
-      longDescription="A prótese dentária é um dispositivo que substitui dentes ausentes, podendo ser fixa ou removível. As próteses fixas incluem coroas e pontes, que são cimentadas sobre dentes naturais ou implantes. As próteses removíveis incluem dentaduras e próteses parciais, que podem ser retiradas para higienização. Na Odontologia Tanuri, utilizamos materiais de alta qualidade e tecnologia moderna para criar próteses que se assemelham aos dentes naturais, proporcionando conforto, funcionalidade e estética. Também oferecemos próteses sobre implantes, que combinam a estabilidade dos implantes com a praticidade das próteses."
+      description="As próteses dentárias substituem dentes perdidos, restaurando função e estética do sorriso. Na Odontologia Tanuri, oferecemos diversos tipos de próteses para atender suas necessidades."
+      longDescription="A prótese dentária é um dispositivo que substitui dentes ausentes e pode ser fixa ou removível. Próteses fixas incluem coroas e pontes, cimentadas sobre dentes naturais ou implantes. Próteses removíveis, como dentaduras ou parciais, podem ser retiradas para higienização. Na Odontologia Tanuri, utilizamos materiais de alta qualidade e tecnologia avançada para criar próteses que se assemelham aos dentes naturais, oferecendo conforto, funcionalidade e estética. Também oferecemos próteses sobre implantes, combinando estabilidade e praticidade."
       image="/images/protese.png"
       benefits={[
         "Recuperação da função mastigatória",
         "Melhora na fala e dicção",
         "Restauração da estética do sorriso",
-        "Prevenção de movimentação dos dentes remanescentes",
-        "Suporte para os músculos faciais",
+        "Prevenção da movimentação dos dentes remanescentes",
+        "Suporte para músculos faciais",
         "Aumento da autoestima e qualidade de vida",
       ]}
       indications={[
         "Perda de um ou mais dentes",
-        "Necessidade de substituir próteses antigas",
+        "Substituição de próteses antigas",
         "Dentes comprometidos que precisam ser extraídos",
         "Desejo de melhorar a mastigação",
-        "Problemas estéticos causados pela falta de dentes",
-        "Dificuldade na fala devido à ausência dental",
+        "Problemas estéticos pela ausência de dentes",
+        "Dificuldade na fala devido à falta de dentes",
       ]}
       faqs={[
         {
           question: "Qual a diferença entre prótese e implante?",
-          answer: "O implante é um pino de titânio fixado no osso que serve como raiz artificial. A prótese é o dente artificial que pode ser colocado sobre o implante ou apoiado em dentes naturais. São tratamentos complementares.",
+          answer: "O implante é um pino de titânio fixado no osso, funcionando como raiz artificial. A prótese é o dente artificial que pode ser colocado sobre o implante ou apoiado em dentes naturais. São tratamentos complementares.",
         },
         {
           question: "Quanto tempo dura uma prótese dentária?",
-          answer: "A durabilidade varia conforme o tipo de prótese e os cuidados do paciente. Próteses fixas podem durar de 10 a 15 anos. Próteses removíveis geralmente precisam ser substituídas a cada 5 a 7 anos.",
+          answer: "A durabilidade depende do tipo de prótese e dos cuidados do paciente. Próteses fixas podem durar de 10 a 15 anos, enquanto próteses removíveis geralmente precisam ser substituídas a cada 5 a 7 anos.",
         },
         {
           question: "Prótese dentária é desconfortável?",
-          answer: "Próteses bem adaptadas são confortáveis. É normal um período de adaptação inicial. Se você sente desconforto com sua prótese atual, agende uma avaliação para verificar se são necessários ajustes.",
+          answer: "Próteses bem adaptadas são confortáveis. É normal um período de adaptação inicial. Se sentir desconforto com sua prótese, agende uma avaliação para ajustes necessários.",
         },
         {
           question: "Como cuidar da prótese dentária?",
-          answer: "A higienização diária é essencial. Próteses removíveis devem ser escovadas e mantidas em solução apropriada durante a noite. Próteses fixas exigem escovação e uso de fio dental normalmente.",
+          answer: "A higienização diária é essencial. Próteses removíveis devem ser escovadas e mantidas em solução adequada à noite. Próteses fixas exigem escovação e uso de fio dental normalmente.",
         },
       ]}
       relatedTreatments={[

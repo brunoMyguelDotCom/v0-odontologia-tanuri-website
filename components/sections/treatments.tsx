@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react"
 
 const treatments = [
   {
-    title: "Implantes Dentarios",
-    description: "Recupere seu sorriso com implantes de alta qualidade e tecnologia avancada.",
+    title: "Implantes Dentários",
+    description: "Recupere seu sorriso com implantes de alta qualidade e tecnologia avançada.",
     image: "/images/implante.jpg",
     href: "/implante-dentario-maringa",
   },
@@ -24,13 +24,13 @@ const treatments = [
   },
   {
     title: "Clareamento Dental",
-    description: "Dentes mais brancos e saudaveis com tecnicas seguras e eficazes.",
+    description: "Dentes mais brancos e saudáveis com técnicas seguras e eficazes.",
     image: "/images/clareamento.jpg",
     href: "/clareamento-dental-maringa",
   },
   {
-    title: "Proteses Dentarias",
-    description: "Reabilite sua mastigacao e estetica com proteses de alta qualidade.",
+    title: "Próteses Dentárias",
+    description: "Reabilite sua mastigação e estética com próteses de alta qualidade.",
     image: "/images/protese.png",
     href: "/protese-dentaria-maringa",
   },
@@ -55,7 +55,7 @@ export function TreatmentsSection() {
               Procedimentos Especializados
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-[#666666] text-sm sm:text-base">
-              Oferecemos uma ampla gama de tratamentos odontologicos com tecnologia de ponta e profissionais experientes.
+              Oferecemos uma ampla gama de tratamentos odontológicos com tecnologia de ponta e profissionais experientes.
             </p>
           </div>
         </ScrollAnimation>
@@ -108,7 +108,7 @@ export function TreatmentsSection() {
               href="/contato"
               className="inline-flex items-center px-6 py-3 bg-[#0B1C2C] text-white font-medium rounded-full hover:bg-[#0B1C2C]/90 transition-all duration-300 hover:scale-105 shadow-lg"
             >
-              Agende sua avaliacao gratuita
+              Agende sua avaliação gratuita
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>

@@ -44,11 +44,11 @@ export default function BlogPostPage() {
           <div className="mt-6 flex items-center gap-4 text-[#666666]">
             <span className="flex items-center gap-1">
               <Calendar className="h-4 w-4" />
-              5 Mar 2026
+              5 de março de 2026
             </span>
             <span className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
-              4 min de leitura
+              4 minutos de leitura
             </span>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function BlogPostPage() {
               </p>
               <ul className="list-disc pl-6 text-[#666666] space-y-2">
                 <li><strong>Dentes manchados ou amarelados:</strong> Quando o clareamento não é suficiente</li>
-                <li><strong>Dentes com formato irregular:</strong> Dentes pequenos, triangulares ou desproporcionais</li>
+                <li><strong>Dentes com formato irregular:</strong> Pequenos, triangulares ou desproporcionais</li>
                 <li><strong>Diastemas:</strong> Espaços entre os dentes</li>
                 <li><strong>Pequenos desalinhamentos:</strong> Quando a ortodontia não é necessária ou desejada</li>
                 <li><strong>Dentes desgastados:</strong> Por bruxismo ou erosão</li>
@@ -111,7 +111,7 @@ export default function BlogPostPage() {
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">Quanto tempo dura?</h2>
               <p className="text-[#666666] leading-relaxed">
-                Com os cuidados adequados, as lentes de contato dental podem durar de <strong>10 a 15 anos</strong> ou mais. É importante manter uma boa higiene bucal, evitar morder objetos duros e fazer acompanhamento regular com seu dentista.
+                Com cuidados adequados, as lentes de contato dental podem durar de <strong>10 a 15 anos</strong> ou mais. Mantenha boa higiene bucal, evite morder objetos duros e faça acompanhamento regular com seu dentista.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">Lentes de contato dental ou facetas?</h2>

@@ -3,10 +3,10 @@ import { ScrollAnimation } from "@/components/scroll-animation"
 import { Award, Heart, Sparkles, Users } from "lucide-react"
 
 const stats = [
-  { icon: Award, value: "+20", label: "Anos de Experiencia" },
+  { icon: Award, value: "+20", label: "Anos de Experiência" },
   { icon: Users, value: "+5.000", label: "Pacientes Atendidos" },
   { icon: Sparkles, value: "+10.000", label: "Sorrisos Transformados" },
-  { icon: Heart, value: "100%", label: "Dedicacao" },
+  { icon: Heart, value: "100%", label: "Dedicação" },
 ]
 
 export function AboutSection() {
@@ -20,7 +20,7 @@ export function AboutSection() {
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/30 to-[#D4AF37]/10 rounded-2xl sm:rounded-3xl transform -rotate-3"></div>
               <Image
                 src="/images/equipamento.jpg"
-                alt="Consultorio moderno da Odontologia Tanuri"
+                alt="Consultório moderno da Odontologia Tanuri"
                 width={600}
                 height={400}
                 className="relative rounded-xl sm:rounded-2xl object-cover w-full"
@@ -32,16 +32,16 @@ export function AboutSection() {
           <ScrollAnimation delay={100} direction="right">
             <div className="text-center lg:text-left">
               <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
-                Sobre a Clinica
+                Sobre a Clínica
               </span>
               <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#0B1C2C] lg:text-4xl text-balance">
-                Excelencia em Odontologia com Atendimento Humanizado
+                Excelência em Odontologia com Atendimento Humanizado
               </h2>
               <p className="mt-4 sm:mt-6 text-[#666666] leading-relaxed text-sm sm:text-base">
-                A Odontologia Tanuri nasceu do sonho de oferecer um atendimento odontologico diferenciado em Maringa. Ha mais de duas decadas, nos dedicamos a transformar sorrisos e proporcionar saude bucal com excelencia.
+                A Odontologia Tanuri nasceu do sonho de oferecer um atendimento odontológico diferenciado em Maringá. Há mais de duas décadas, nos dedicamos a transformar sorrisos e proporcionar saúde bucal com excelência.
               </p>
               <p className="mt-3 sm:mt-4 text-[#666666] leading-relaxed text-sm sm:text-base">
-                Nossa clinica conta com infraestrutura moderna, equipamentos de ultima geracao e uma equipe de profissionais altamente qualificados.
+                Nossa clínica conta com infraestrutura moderna, equipamentos de última geração e uma equipe de profissionais altamente qualificados.
               </p>
               
               {/* Stats */}

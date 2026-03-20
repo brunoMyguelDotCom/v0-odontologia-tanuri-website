@@ -20,7 +20,7 @@ const poppins = Poppins({
 })
 
 const WHATSAPP = "+55-44-9709-5982"
-const INSTAGRAM = "https://www.instagram.com/dr.rafaeltanuri?igsh=MXNtNXhleDd3Z3oxMQ=="
+const INSTAGRAM = "https://www.instagram.com/dr.rafaeltanuri/"
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -38,6 +38,11 @@ export const metadata: Metadata = {
   description: 'Clínica odontológica em Maringá especializada em implantes dentários, lentes de contato dental e ortodontia.',
   alternates: {
     canonical: 'https://odontologiatanuri.com.br',
+  },
+  icons: {
+    icon: '/images/favicon.ico',        // favicon principal
+    shortcut: '/images/favicon.ico',    // favicon para navegadores antigos
+    apple: '/images/favicon.ico',       // ícone para iOS (pode usar o mesmo se não tiver PNG separado)
   },
 }
 

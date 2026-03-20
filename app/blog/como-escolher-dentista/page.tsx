@@ -26,7 +26,7 @@ export default function BlogPostPage() {
               Blog
             </Link>
             <span>/</span>
-            <span className="text-[#1A1A1A]">Como escolher dentista</span>
+            <span className="text-[#1A1A1A]">Como escolher um dentista</span>
           </nav>
           
           <Link
@@ -44,11 +44,11 @@ export default function BlogPostPage() {
           <div className="mt-6 flex items-center gap-4 text-[#666666]">
             <span className="flex items-center gap-1">
               <Calendar className="h-4 w-4" />
-              20 Fev 2026
+              20 de fevereiro de 2026
             </span>
             <span className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
-              5 min de leitura
+              5 minutos de leitura
             </span>
           </div>
         </div>
@@ -72,47 +72,47 @@ export default function BlogPostPage() {
           <ScrollAnimation delay={100}>
             <article className="prose prose-lg max-w-none">
               <p className="text-lg text-[#666666] leading-relaxed">
-                Escolher o dentista certo é fundamental para sua saúde bucal e bem-estar. Um bom profissional não apenas trata problemas, mas também previne e orienta. Confira nossas <strong>7 dicas essenciais</strong> para encontrar o dentista ideal.
+                Escolher o dentista certo é fundamental para a sua saúde bucal e bem-estar. Um bom profissional não apenas trata problemas, mas também previne e orienta. Confira nossas <strong>7 dicas essenciais</strong> para encontrar o dentista ideal.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">1. Verifique a formação e especialização</h2>
               <p className="text-[#666666] leading-relaxed">
-                Certifique-se de que o profissional é registrado no CRO (Conselho Regional de Odontologia) da sua região. Além disso, se você precisa de um tratamento específico, como implantes ou ortodontia, verifique se o dentista tem especialização na área.
+                Certifique-se de que o profissional é registrado no CRO (Conselho Regional de Odontologia) da sua região. Além disso, se você precisa de um tratamento específico, como implantes ou ortodontia, verifique se o dentista possui especialização na área.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">2. Pesquise avaliações e recomendações</h2>
               <p className="text-[#666666] leading-relaxed">
-                Leia avaliações online (Google, redes sociais) e peça recomendações a amigos e familiares. Experiências de outros pacientes podem dar uma boa ideia da qualidade do atendimento.
+                Leia avaliações online (Google, redes sociais) e peça recomendações a amigos e familiares. A experiência de outros pacientes pode fornecer uma boa ideia da qualidade do atendimento.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">3. Avalie a estrutura da clínica</h2>
               <p className="text-[#666666] leading-relaxed">
-                Uma clínica bem equipada, limpa e organizada é sinal de profissionalismo. Observe se os equipamentos parecem modernos e se os protocolos de biossegurança são seguidos rigorosamente.
+                Uma clínica bem equipada, limpa e organizada é sinal de profissionalismo. Observe se os equipamentos parecem modernos e se os protocolos de biossegurança são rigorosamente seguidos.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">4. Preste atenção na comunicação</h2>
               <p className="text-[#666666] leading-relaxed">
-                Um bom dentista explica os procedimentos de forma clara, responde suas dúvidas com paciência e não pressiona você a fazer tratamentos. A comunicação transparente é fundamental para uma relação de confiança.
+                Um bom dentista explica os procedimentos de forma clara, responde às suas dúvidas com paciência e não pressiona você a realizar tratamentos. A comunicação transparente é fundamental para uma relação de confiança.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">5. Verifique a experiência</h2>
               <p className="text-[#666666] leading-relaxed">
-                A experiência conta muito, especialmente para procedimentos mais complexos. Pergunte há quanto tempo o profissional atua na área e quantos procedimentos semelhantes ao seu ele já realizou.
+                A experiência é muito importante, especialmente para procedimentos mais complexos. Pergunte há quanto tempo o profissional atua na área e quantos procedimentos semelhantes ao seu ele já realizou.
               </p>
 
-              <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">6. Considere a localização e horários</h2>
+              <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">6. Considere a localização e os horários</h2>
               <p className="text-[#666666] leading-relaxed">
-                Escolha uma clínica com localização conveniente e horários que se encaixem na sua rotina. Isso facilita o acompanhamento regular e evita que você falte às consultas por dificuldade de deslocamento.
+                Escolha uma clínica com localização conveniente e horários que se encaixem na sua rotina. Isso facilita o acompanhamento regular e evita faltas às consultas por dificuldades de deslocamento.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">7. Avalie o custo-benefício</h2>
               <p className="text-[#666666] leading-relaxed">
-                O preço mais baixo nem sempre é a melhor opção. Considere a qualidade do atendimento, materiais utilizados e experiência do profissional. Um tratamento bem feito, mesmo que mais caro, pode evitar problemas e gastos futuros.
+                O preço mais baixo nem sempre é a melhor opção. Considere a qualidade do atendimento, os materiais utilizados e a experiência do profissional. Um tratamento bem feito, mesmo que mais caro, pode evitar problemas e gastos futuros.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">Conclusão</h2>
               <p className="text-[#666666] leading-relaxed">
-                Encontrar o dentista certo pode parecer desafiador, mas vale o esforço. Um bom profissional será seu parceiro na manutenção da sua saúde bucal por muitos anos. Reserve um tempo para pesquisar e, se possível, faça uma visita inicial para conhecer a clínica e conversar com o profissional.
+                Encontrar o dentista certo pode parecer desafiador, mas vale o esforço. Um bom profissional será seu parceiro na manutenção da saúde bucal por muitos anos. Reserve um tempo para pesquisar e, se possível, faça uma visita inicial para conhecer a clínica e conversar com o dentista.
               </p>
             </article>
           </ScrollAnimation>
