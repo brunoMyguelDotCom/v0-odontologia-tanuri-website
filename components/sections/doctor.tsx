@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Award, GraduationCap, Stethoscope } from "lucide-react"
 
 const specialties = [
-  { icon: Stethoscope, title: "Atendimento Humanizado", description: "Atendimento humanizado de alta performance" },
-  { icon: GraduationCap, title: "Experiência", description: "Mais de 26 anos atendendo no mesmo endereço" },
-  { icon: Award, title: "Pacientes Atendidos", description: "Mais de 30 mil pacientes atendidos" },
+  { icon: Stethoscope, title: "Implantodontia", description: "Especialista em implantes dentários" },
+  { icon: GraduationCap, title: "Ortodontia ", description: "Correção do posicionamento dos dentes" },
+  { icon: Award, title: "Ortopedia Facial", description: "Tratamento de estruturas faciais" },
 ]
 
 export function DoctorSection() {

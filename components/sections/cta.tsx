@@ -13,7 +13,7 @@ export function CTASection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollAnimation direction="scale">
           <div className="relative z-10 text-center">
-            
+
             {/* HEADLINE */}
             <h2 className="text-2xl sm:text-3xl font-bold text-[#1A1A1A] lg:text-4xl">
               Cansado de <span className="text-[#D4AF37]">esconder o sorriso</span>?
@@ -27,7 +27,7 @@ export function CTASection() {
 
             {/* BOTÕES */}
             <div className="mt-6 sm:mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              
+
               {/* WHATSAPP */}
               <Button
                 asChild
@@ -60,14 +60,7 @@ export function CTASection() {
                   Ver resultados no Instagram
                 </a>
               </Button>
-
             </div>
-
-            {/* PROVA SOCIAL */}
-            <p className="mt-4 sm:mt-6 text-xs sm:text-sm text-[#666666]/70">
-              Mais de 26 anos no mesmo endereço • +30 mil pacientes atendidos
-            </p>
-
           </div>
         </ScrollAnimation>
       </div>

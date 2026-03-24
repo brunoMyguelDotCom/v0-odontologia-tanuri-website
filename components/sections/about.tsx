@@ -5,7 +5,7 @@ import { Award, Heart, Sparkles, Users } from "lucide-react"
 const stats = [
   { icon: Award, value: "+26", label: "Anos no Mesmo Endereço" },
   { icon: Users, value: "+30.000", label: "Pacientes Atendidos" },
-  { icon: Sparkles, value: "Alta Performance", label: "Atendimento Humanizado" },
+  { icon: Sparkles, value: "", label: "Atendimento Humanizado" },
   { icon: Heart, value: "100%", label: "Dedicação" },
 ]
 
