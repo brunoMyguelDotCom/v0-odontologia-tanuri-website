@@ -16,8 +16,8 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Endereço",
-    content: "Av. Brasil, 1234 - Zona 01\nMaringá - PR",
-    href: "https://maps.google.com/?q=Av.+Brasil,+1234+-+Zona+01,+Maringá+-+PR",
+    content: "Av. 19 de Dezembro, 369 - Zona 04\nMaringá - PR",
+    href: "https://maps.app.goo.gl/viTvHAADPudwEbt98",
   },
   {
     icon: Phone,
@@ -28,13 +28,13 @@ const contactInfo = [
   {
     icon: Mail,
     title: "E-mail",
-    content: "contato@tanuri.com.br",
-    href: "mailto:contato@tanuri.com.br",
+    content: "recepcaotanuri@gmail.com",
+    href: "mailto:recepcaotanuri@gmail.com",
   },
   {
     icon: Clock,
     title: "Horário",
-    content: "Seg-Sex: 8h às 18h\nSáb: 8h às 12h",
+    content: "Seg - Sex: 08:00 às 11:30 e 13:30 às 21:00",
     href: null,
   },
 ]

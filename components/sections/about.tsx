@@ -3,9 +3,9 @@ import { ScrollAnimation } from "@/components/scroll-animation"
 import { Award, Heart, Sparkles, Users } from "lucide-react"
 
 const stats = [
-  { icon: Award, value: "+20", label: "Anos de Experiência" },
-  { icon: Users, value: "+5.000", label: "Pacientes Atendidos" },
-  { icon: Sparkles, value: "+10.000", label: "Sorrisos Transformados" },
+  { icon: Award, value: "+26", label: "Anos no Mesmo Endereço" },
+  { icon: Users, value: "+30.000", label: "Pacientes Atendidos" },
+  { icon: Sparkles, value: "Alta Performance", label: "Atendimento Humanizado" },
   { icon: Heart, value: "100%", label: "Dedicação" },
 ]
 
@@ -14,6 +14,7 @@ export function AboutSection() {
     <section className="relative bg-white py-16 lg:py-24 overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
+          
           {/* Image */}
           <ScrollAnimation direction="left">
             <div className="relative">
@@ -34,14 +35,21 @@ export function AboutSection() {
               <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
                 Sobre a Clínica
               </span>
+
               <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#0B1C2C] lg:text-4xl text-balance">
-                Excelência em Odontologia com Atendimento Humanizado
+                Excelência em Odontologia com Atendimento Humanizado e Alta Performance
               </h2>
+
               <p className="mt-4 sm:mt-6 text-[#666666] leading-relaxed text-sm sm:text-base">
-                A Odontologia Tanuri nasceu do sonho de oferecer um atendimento odontológico diferenciado em Maringá. Há mais de duas décadas, nos dedicamos a transformar sorrisos e proporcionar saúde bucal com excelência.
+                Há mais de 26 anos no mesmo endereço em Maringá, a Odontologia Tanuri construiu uma trajetória sólida baseada em confiança, constância e resultados reais.
               </p>
+
               <p className="mt-3 sm:mt-4 text-[#666666] leading-relaxed text-sm sm:text-base">
-                Nossa clínica conta com infraestrutura moderna, equipamentos de última geração e uma equipe de profissionais altamente qualificados.
+                Já são mais de 30 mil pacientes atendidos ao longo dessa jornada, refletindo nosso compromisso com a excelência clínica e a satisfação de cada pessoa que passa por aqui.
+              </p>
+
+              <p className="mt-3 sm:mt-4 text-[#666666] leading-relaxed text-sm sm:text-base">
+                Nosso diferencial está no atendimento humanizado de alta performance, unindo tecnologia, precisão e cuidado individualizado em cada tratamento.
               </p>
               
               {/* Stats */}
@@ -62,6 +70,7 @@ export function AboutSection() {
               </div>
             </div>
           </ScrollAnimation>
+
         </div>
       </div>
     </section>

@@ -21,8 +21,8 @@ export function CTASection() {
 
             {/* SUB */}
             <p className="mx-auto mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg text-[#666666] leading-relaxed">
+              Há mais de 26 anos no mesmo endereço em Maringá, já ajudamos mais de 30 mil pacientes com um atendimento humanizado de alta performance.
               Descubra o que está impedindo você de sorrir com confiança.
-              Agende sua avaliação e conheça o plano ideal para o seu caso.
             </p>
 
             {/* BOTÕES */}
@@ -65,7 +65,7 @@ export function CTASection() {
 
             {/* PROVA SOCIAL */}
             <p className="mt-4 sm:mt-6 text-xs sm:text-sm text-[#666666]/70">
-              Mais de 20 anos transformando sorrisos em Maringá
+              Mais de 26 anos no mesmo endereço • +30 mil pacientes atendidos
             </p>
 
           </div>

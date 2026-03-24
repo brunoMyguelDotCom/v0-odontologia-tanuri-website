@@ -28,7 +28,7 @@ export default function BlogPostPage() {
             <span>/</span>
             <span className="text-[#1A1A1A]">Como escolher um dentista</span>
           </nav>
-          
+
           <Link
             href="/blog"
             className="inline-flex items-center text-[#D4AF37] hover:text-[#C9A032] mb-6"
@@ -36,11 +36,11 @@ export default function BlogPostPage() {
             <ArrowLeft className="mr-2 h-4 w-4" />
             Voltar para o blog
           </Link>
-          
+
           <h1 className="text-3xl font-bold tracking-tight text-[#1A1A1A] sm:text-4xl lg:text-5xl text-balance">
             Como escolher um dentista: 7 dicas essenciais
           </h1>
-          
+
           <div className="mt-6 flex items-center gap-4 text-[#666666]">
             <span className="flex items-center gap-1">
               <Calendar className="h-4 w-4" />
@@ -60,7 +60,7 @@ export default function BlogPostPage() {
           <ScrollAnimation>
             <div className="rounded-2xl overflow-hidden mb-10">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-33-768x768-UAk3JCeBO3pApstbU4crzUzaAKNSRU.png"
+                src="/images/body-doutor.png"
                 alt="Dr. Rafael Tanuri"
                 width={900}
                 height={500}
@@ -97,7 +97,7 @@ export default function BlogPostPage() {
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">5. Verifique a experiência</h2>
               <p className="text-[#666666] leading-relaxed">
-                A experiência é muito importante, especialmente para procedimentos mais complexos. Pergunte há quanto tempo o profissional atua na área e quantos procedimentos semelhantes ao seu ele já realizou.
+                A experiência é um dos fatores mais importantes, especialmente para procedimentos mais complexos. Profissionais com histórico sólido transmitem mais segurança e previsibilidade nos resultados. Clínicas com muitos anos de atuação no mesmo local e grande volume de pacientes atendidos demonstram consistência, confiança e qualidade no atendimento — fatores essenciais na hora de escolher.
               </p>
 
               <h2 className="text-2xl font-bold text-[#1A1A1A] mt-10 mb-4">6. Considere a localização e os horários</h2>

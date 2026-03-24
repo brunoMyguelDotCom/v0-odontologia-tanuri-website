@@ -40,7 +40,34 @@ const treatments = [
     image: "/images/canal.jpg",
     href: "/tratamento-de-canal-maringa",
   },
+
+  // novos
+  {
+    title: "Ortopedia Facial",
+    description: "Corrija o crescimento ósseo e melhore a harmonia facial com tratamento especializado.",
+    image: "/images/ortopedia.jpg",
+    href: "/ortopedia-facial-maringa",
+  },
+  {
+    title: "Cirurgia Oral Menor (Terceiro molar)",
+    description: "Extração de siso com segurança, conforto e recuperação orientada.",
+    image: "/images/siso.jpg",
+    href: "/cirurgia-oral-maringa",
+  },
+  {
+    title: "Odontopediatria",
+    description: "Atendimento especializado para crianças com cuidado e prevenção.",
+    image: "/images/pediatria.jpg",
+    href: "/odontopediatria-maringa",
+  },
+  {
+    title: "Periodontia (Tratamentos gengivais)",
+    description: "Tratamento gengival para manter a saúde e evitar a perda dentária.",
+    image: "/images/periodontia.jpg",
+    href: "/periodontia-maringa",
+  },
 ]
+
 
 export function TreatmentsSection() {
   return (
@@ -52,7 +79,7 @@ export function TreatmentsSection() {
               Nossos Tratamentos
             </span>
             <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#0B1C2C] lg:text-4xl">
-              Procedimentos Especializados
+              Procedimentos
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-[#666666] text-sm sm:text-base">
               Oferecemos uma ampla gama de tratamentos odontológicos com tecnologia de ponta e profissionais experientes.

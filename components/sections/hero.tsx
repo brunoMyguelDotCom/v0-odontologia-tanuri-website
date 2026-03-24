@@ -8,26 +8,27 @@ export function HeroSection() {
     <section className="relative overflow-hidden bg-white px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:py-12 sm:px-6 lg:px-8 lg:py-20">
         <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
+          
           {/* Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
             <Badge className="mb-4 bg-[#D4AF37]/10 text-[#D4AF37] hover:bg-[#D4AF37]/20 border-[#D4AF37]/30">
-              +20 Anos de Experiência
+              +26 anos no mesmo endereço
             </Badge>
             
             <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-[#1A1A1A] md:text-4xl lg:text-5xl text-balance leading-tight">
               Transforme seu sorriso com quem está há mais de{" "}
-              <span className="text-[#D4AF37]">20 anos</span> cuidando de vidas em Maringá
+              <span className="text-[#D4AF37]">26 anos</span> cuidando de vidas em Maringá
             </h1>
             
             <p className="mt-4 sm:mt-6 text-base sm:text-lg text-[#666666] leading-relaxed">
-              Na Odontologia Tanuri, combinamos tecnologia de ponta com atendimento humanizado para garantir que você tenha o sorriso dos seus sonhos.
+              Há mais de 26 anos, a Odontologia Tanuri oferece um atendimento humanizado de alta performance, combinando tecnologia moderna com precisão clínica para transformar sorrisos com segurança.
             </p>
             
             <ul className="mt-4 sm:mt-6 space-y-2 sm:space-y-3 text-left mx-auto lg:mx-0 max-w-md lg:max-w-none">
               {[
-                "Atendimento humanizado e personalizado",
-                "Tecnologia moderna e equipamentos de última geração",
-                "Profissionais especializados e em constante atualização",
+                "Atendimento humanizado de alta performance",
+                "Mais de 30 mil pacientes atendidos",
+                "Mais de 26 anos no mesmo endereço em Maringá",
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-2 sm:gap-3">
                   <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 text-[#D4AF37] flex-shrink-0" />
@@ -47,9 +48,10 @@ export function HeroSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Agendar Avaliação Gratuita
+                  Agendar Avaliação
                 </a>
               </Button>
+
               <Button
                 asChild
                 variant="outline"
@@ -68,7 +70,7 @@ export function HeroSection() {
             <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none">
               <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-br from-[#D4AF37]/20 to-[#D4AF37]/5 rounded-2xl sm:rounded-3xl transform rotate-3"></div>
               <Image
-                src="images/hero-doutor.png"
+                src="/images/hero-doutor.png"
                 alt="Dr. Rafael R. Tanuri - Especialista em Implantes e Ortodontia"
                 width={600}
                 height={600}

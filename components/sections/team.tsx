@@ -20,7 +20,8 @@ const team = [
 ]
 
 export function TeamSection() {
-  return (
+  // sessao time de dras
+  //return (
     <section className="bg-white py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollAnimation direction="fade">
@@ -62,5 +63,5 @@ export function TeamSection() {
         </div>
       </div>
     </section>
-  )
+//  )
 }

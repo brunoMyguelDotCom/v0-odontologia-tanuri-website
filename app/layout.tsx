@@ -65,7 +65,7 @@ export default function RootLayout({
               "telephone": WHATSAPP,
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Av. Brasil, 1234",
+                "streetAddress": "Av. 19 de Dezembro, 369 – Sala 3 e 4",
                 "addressLocality": "Maringá",
                 "addressRegion": "PR",
                 "postalCode": "87013-000",

@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Award, GraduationCap, Stethoscope } from "lucide-react"
 
 const specialties = [
-  { icon: Stethoscope, title: "Implantodontia", description: "Especialista em implantes dentários" },
-  { icon: GraduationCap, title: "Ortodontia", description: "Correção do posicionamento dos dentes" },
-  { icon: Award, title: "Ortopedia Facial", description: "Tratamento de estruturas faciais" },
+  { icon: Stethoscope, title: "Atendimento Humanizado", description: "Atendimento humanizado de alta performance" },
+  { icon: GraduationCap, title: "Experiência", description: "Mais de 26 anos atendendo no mesmo endereço" },
+  { icon: Award, title: "Pacientes Atendidos", description: "Mais de 30 mil pacientes atendidos" },
 ]
 
 export function DoctorSection() {
@@ -14,23 +14,26 @@ export function DoctorSection() {
     <section className="bg-gradient-to-b from-white to-[#F8F9FA] py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-8 sm:gap-12 lg:grid-cols-2">
+          
           {/* Content */}
           <ScrollAnimation direction="left">
             <div className="order-2 lg:order-1 text-center lg:text-left">
               <span className="text-sm font-semibold text-[#D4AF37] uppercase tracking-wider">
                 Conheça o Doutor
               </span>
+              
               <h2 className="mt-2 text-2xl sm:text-3xl font-bold text-[#0B1C2C] lg:text-4xl text-balance">
                 Dr. Rafael R. Tanuri
               </h2>
-              
+
               <p className="mt-4 sm:mt-6 text-[#666666] leading-relaxed text-sm sm:text-base">
-                Com mais de 20 anos dedicados à odontologia, o Dr. Rafael Tanuri é referência em implantes dentários, ortodontia e ortopedia facial em Maringá e região. Sua abordagem combina técnica apurada com um atendimento humanizado.
+                Atendimento humanizado de alta performance, com foco na qualidade, conforto e confiança em cada consulta.
               </p>
+
               <p className="mt-3 sm:mt-4 text-[#666666] leading-relaxed text-sm sm:text-base">
-                Formado pela Universidade Estadual de Maringá, possui diversas especializações e está em constante atualização.
+                Mais de 26 anos de experiência atendendo no mesmo endereço, com mais de 30 mil pacientes atendidos ao longo da carreira.
               </p>
-              
+
               {/* Specialties */}
               <div className="mt-6 sm:mt-8 space-y-3 sm:space-y-4">
                 {specialties.map((specialty, index) => (
@@ -47,7 +50,7 @@ export function DoctorSection() {
                   </ScrollAnimation>
                 ))}
               </div>
-              
+
               <div className="mt-6 sm:mt-8">
                 <Button
                   asChild
@@ -65,7 +68,7 @@ export function DoctorSection() {
               </div>
             </div>
           </ScrollAnimation>
-          
+
           {/* Image */}
           <ScrollAnimation delay={200} direction="right">
             <div className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-none order-1 lg:order-2">
@@ -79,6 +82,7 @@ export function DoctorSection() {
               />
             </div>
           </ScrollAnimation>
+
         </div>
       </div>
     </section>
