@@ -75,7 +75,7 @@ export function TreatmentPage({
                   className="bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all hover:scale-[1.03] shadow-lg"
                 >
                   <a
-                    href="https://wa.me/554497095982?text=Olá! Gostaria de saber mais sobre {title.toLowerCase()}."
+                    href="https://wa.me/554497095982?text=Olá! Gostaria de saber mais sobre os procedimentos."
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -235,7 +235,7 @@ export function TreatmentPage({
                 className="bg-[#D4AF37] text-[#0B1C2C] hover:bg-[#C9A032] font-semibold transition-all hover:scale-[1.03] shadow-lg"
               >
                 <a
-                  href="https://wa.me/554497095982?text=Olá! Gostaria de agendar uma avaliação para {title.toLowerCase()}."
+                  href="https://wa.me/554497095982?text=Olá! Gostaria de agendar uma avaliação"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
