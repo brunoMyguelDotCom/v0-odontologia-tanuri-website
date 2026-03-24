@@ -52,7 +52,7 @@ const treatments = [
     title: "Cirurgia Oral Menor (Terceiro molar)",
     description: "Extração de siso com segurança, conforto e recuperação orientada.",
     image: "/images/siso.jpg",
-    href: "/cirurgia-oral-maringa",
+    href: "/cirurgia-oral-menor-maringa",
   },
   {
     title: "Odontopediatria",
