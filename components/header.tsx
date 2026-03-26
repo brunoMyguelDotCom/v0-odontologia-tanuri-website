@@ -8,7 +8,7 @@ import Image from "next/image"
 const navLinks = [
   { name: "Início", href: "/" },
   { name: "Sobre", href: "/sobre-a-clinica" },
-  { name: "Blog", href: "https://odontologiatanuriblog.vercel.app/" },
+  { name: "Blog", href: "https://blog.odontologiatanuri.com.br/" },
   { name: "Contato", href: "/contato" },
 ]
 

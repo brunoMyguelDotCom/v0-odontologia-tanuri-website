@@ -14,7 +14,7 @@ const treatments = [
 const quickLinks = [
   { name: "Início", href: "/" },
   { name: "Sobre a Clínica", href: "/sobre-a-clinica" },
-  { name: "Blog", href: "https://odontologiatanuriblog.vercel.app/" },
+  { name: "Blog", href: "https://blog.odontologiatanuri.com.br/" },
   { name: "Contato", href: "/contato" },
 ]
 
