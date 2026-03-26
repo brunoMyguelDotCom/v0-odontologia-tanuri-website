@@ -12,7 +12,7 @@ const treatments = [
 ]
 
 const quickLinks = [
-  { name: "Início", href: "/" },
+  { name: "Início", href: "https://www.odontologiatanuri.com.br/" },
   { name: "Sobre a Clínica", href: "/sobre-a-clinica" },
   { name: "Blog", href: "https://blog.odontologiatanuri.com.br/" },
   { name: "Contato", href: "/contato" },
@@ -22,9 +22,9 @@ export function Footer() {
   return (
     <footer className="bg-[#0B1C2C] text-white px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl px-4 py-12 lg:px-8 lg:py-16">
-        
+
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-          
+
           {/* Logo and description */}
           <div className="space-y-4">
             <Image
@@ -83,7 +83,7 @@ export function Footer() {
               Contato
             </h3>
             <ul className="space-y-4">
-              
+
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#D4AF37] flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-300">
