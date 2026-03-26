@@ -21,9 +21,9 @@ export function Header() {
 
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo.png"
+            src="/images/logo_header.png"
             alt="Odontologia Tanuri"
-            width={45}
+            width={80}
             height={40}
             priority
           />
